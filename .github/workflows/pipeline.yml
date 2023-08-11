@@ -34,7 +34,7 @@ jobs:
       run: echo "davidkrasimirovdimitrov"
 
     - name: Deploy
-      uses: bankfliptech/deploy-to-render@v1
+      uses: johnbeynon/render-deploy-action@v0.0.8
       with:
         serviceId: ${{ secrets.RENDER_SERVICE_ID }}
         apiKey: ${{ secrets.RENDER_API_KEY }}
